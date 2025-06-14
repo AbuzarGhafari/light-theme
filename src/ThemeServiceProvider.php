@@ -11,6 +11,7 @@ class ThemeServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadViewsFrom(__DIR__.'/resources/views', 'light');
+
         
         if (class_exists(\Inertia\Inertia::class)) {
             \Inertia\Inertia::share('activeTheme', 'light-theme');
