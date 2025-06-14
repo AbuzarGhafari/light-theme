@@ -1,0 +1,20 @@
+{
+  "name": "abuzar-ghafari/light-theme",
+  "description": "Light Theme for Laravel React Inertia App",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AbuzarGhafari\\LightTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AbuzarGhafari\\LightTheme\\ThemeServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
